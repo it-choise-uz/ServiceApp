@@ -11,12 +11,12 @@ buildscript {
 
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
 
     defaultConfig {
-        applicationId "com.cscodetech.townclap"
-        minSdkVersion 19
-        targetSdkVersion 31
+        applicationId "com.blckmnstudio.app"
+        minSdkVersion 21
+        targetSdkVersion 33
         versionCode 3
         versionName "1.3"
         multiDexEnabled true

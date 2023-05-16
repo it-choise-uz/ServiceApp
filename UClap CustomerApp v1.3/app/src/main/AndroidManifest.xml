@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.cscodetech.townclap">
+    package="com.blckmnstudio.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
-        android:name=".MyApplication"
+        android:name="com.blckmnstudio.app.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,137 +19,137 @@
         android:theme="@style/Theme.TownClap"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".activity.ExportActivity"
+            android:name="com.blckmnstudio.app.activity.ExportActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.HearExportListActivity"
+            android:name="com.blckmnstudio.app.activity.HearExportListActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.HearCategotyActivity"
+            android:name="com.blckmnstudio.app.activity.HearCategotyActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.HearActivity"
+            android:name="com.blckmnstudio.app.activity.HearActivity"
             android:exported="false"
             android:theme="@style/Theme.Intro" />
         <activity
-            android:name=".activity.SearchActivity"
+            android:name="com.blckmnstudio.app.activity.SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.BookingDetailActivity"
+            android:name="com.blckmnstudio.app.activity.BookingDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ResedulActivity"
+            android:name="com.blckmnstudio.app.activity.ResedulActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.BookingActivity"
+            android:name="com.blckmnstudio.app.activity.BookingActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.NotificationActivity"
+            android:name="com.blckmnstudio.app.activity.NotificationActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ReferlActivity"
+            android:name="com.blckmnstudio.app.activity.ReferlActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.WalletActivity"
+            android:name="com.blckmnstudio.app.activity.WalletActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.TimeSlotActivity"
+            android:name="com.blckmnstudio.app.activity.TimeSlotActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.CartActivity"
+            android:name="com.blckmnstudio.app.activity.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.BasicActivity"
+            android:name="com.blckmnstudio.app.activity.BasicActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.AddOnsActivity"
+            android:name="com.blckmnstudio.app.activity.AddOnsActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ItemListActivity"
+            android:name="com.blckmnstudio.app.activity.ItemListActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.SubCategoryActivity"
+            android:name="com.blckmnstudio.app.activity.SubCategoryActivity"
             android:exported="false"
             android:theme="@style/Theme.Intro" />
         <activity
-            android:name=".activity.SubCategoyTypeActivity"
+            android:name="com.blckmnstudio.app.activity.SubCategoyTypeActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ServiceAllActivity"
+            android:name="com.blckmnstudio.app.activity.ServiceAllActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.DynamicAllActivity"
+            android:name="com.blckmnstudio.app.activity.DynamicAllActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.SearchLocationActivity"
+            android:name="com.blckmnstudio.app.activity.SearchLocationActivity"
             android:exported="false"
             android:theme="@style/Theme.Intro" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name="com.blckmnstudio.app.activity.LoginActivity"
             android:exported="false"
             android:theme="@style/Theme.Intro" />
         <activity
-            android:name=".activity.HomeActivity"
+            android:name="com.blckmnstudio.app.activity.HomeActivity"
             android:exported="false"
             android:theme="@style/Theme.Intro" />
         <activity
-            android:name=".activity.VerifyPhoneActivity"
+            android:name="com.blckmnstudio.app.activity.VerifyPhoneActivity"
             android:exported="false"
             android:theme="@style/Theme.Intro" />
         <activity
-            android:name=".activity.FlutterwaveActivity"
+            android:name="com.blckmnstudio.app.activity.FlutterwaveActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.SenangpayActivity"
+            android:name="com.blckmnstudio.app.activity.SenangpayActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.PaystackActivity"
+            android:name="com.blckmnstudio.app.activity.PaystackActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.PaytmActivity"
+            android:name="com.blckmnstudio.app.activity.PaytmActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.AddressActivity"
+            android:name="com.blckmnstudio.app.activity.AddressActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.RazerpayActivity"
+            android:name="com.blckmnstudio.app.activity.RazerpayActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.StripPaymentActivity"
+            android:name="com.blckmnstudio.app.activity.StripPaymentActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.PaypalActivity"
+            android:name="com.blckmnstudio.app.activity.PaypalActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.SettingActivity"
+            android:name="com.blckmnstudio.app.activity.SettingActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.PrivecyPolicyActivity"
+            android:name="com.blckmnstudio.app.activity.PrivecyPolicyActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.AboutsActivity"
+            android:name="com.blckmnstudio.app.activity.AboutsActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.TramsAndConditionActivity"
+            android:name="com.blckmnstudio.app.activity.TramsAndConditionActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ContectusActivity"
+            android:name="com.blckmnstudio.app.activity.ContectusActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.EditProfileActivity"
+            android:name="com.blckmnstudio.app.activity.EditProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ForgotActivity"
+            android:name="com.blckmnstudio.app.activity.ForgotActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ChanegPasswordActivity"
+            android:name="com.blckmnstudio.app.activity.ChanegPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.IntroActivity"
+            android:name="com.blckmnstudio.app.activity.IntroActivity"
             android:exported="false"
             android:theme="@style/Theme.Intro" />
         <activity
-            android:name=".locationpick.LocationGetActivity"
+            android:name="com.blckmnstudio.app.locationpick.LocationGetActivity"
             android:exported="false"
             android:theme="@style/Theme.Intro" />
 
@@ -158,7 +158,7 @@
             android:value="@string/api_key" />
 
         <activity
-            android:name=".activity.FirstActivity"
+            android:name="com.blckmnstudio.app.activity.FirstActivity"
             android:exported="true"
             android:theme="@style/Theme.Intro">
             <intent-filter>
